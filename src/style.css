@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 170, 255);
+    font-size: 30px;
+    padding: 15px 60px;
+}
+
+.nav-links .links{
+    text-decoration: none;
+    color: rgb(249, 243, 243);
+}
+
+.student-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.student-header button{
+    border: none;
+    background-color: rgb(85, 253, 197);
+    font-size: 23px;
+    padding: 10px 20px;
+    color: orangered;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.student-header button:hover{
+    background-color: orangered;
+    color: aquamarine;
+    border-radius: 5px;
+    border: none;
+}
