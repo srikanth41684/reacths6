@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+body{
+    background: linear-gradient(
+        to left,
+        rgb(191, 239, 32),
+        rgb(251, 251, 79),
+        yellowgreen
+    );
+}
+
 
 .nav-links{
     display: flex;
@@ -24,9 +33,10 @@
     margin: 30px;
 }
 
-.student-header button{
+.add-studt{
     border: none;
     background-color: rgb(85, 253, 197);
+    text-decoration: none;
     font-size: 23px;
     padding: 10px 20px;
     color: orangered;
@@ -34,9 +44,81 @@
     border-radius: 5px;
 }
 
-.student-header button:hover{
+.add-studt:hover{
     background-color: orangered;
     color: aquamarine;
     border-radius: 5px;
     border: none;
+}
+
+table{
+    width: 100%;
+    border: 1px solid black;
+}
+
+table tr{
+    text-align: center;
+}
+
+.input-form{
+    position: relative;
+    color: rgb(255, 34, 0);
+    font-size: 23px;
+}
+
+.input-form .input-name{
+    position: absolute;
+    left: 15%;
+    top: 100px;
+}
+
+.input-form .input-age{
+    position: absolute;
+    left: 60%;
+    top: 100px;
+}
+
+.input-form .input-course{
+    position: absolute;
+    left: 15%;
+    top: 300px;
+}
+
+.input-form .input-batch{
+    position: absolute;
+    left: 60%;
+    top: 300px;
+}
+
+.link-cancel, .link-update{
+    border: none;
+    background-color: rgb(85, 253, 197);
+    text-decoration: none;
+    font-size: 23px;
+    padding: 10px 40px;
+    color: orangered;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.link-cancel{
+    position: relative;
+    left: 55%;
+    top: 450px;
+}
+
+.link-update{
+    position: relative;
+    left: 60%;
+    top: 450px;
+}
+
+.link-cancel:hover{
+    background-color: orangered;
+    color: rgb(85, 253, 197);
+}
+
+.link-update:hover{
+    background-color: orangered;
+    color: rgb(85, 253, 197);
 }
